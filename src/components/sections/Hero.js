@@ -25,17 +25,17 @@ const Hero = ({
   ...props
 }) => {
 
-  const [videoModalActive, setVideomodalactive] = useState(false);
+//   const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
+//   const openModal = (e) => {
+//     e.preventDefault();
+//     setVideomodalactive(true);
+//   }
 
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }   
+//   const closeModal = (e) => {
+//     e.preventDefault();
+//     setVideomodalactive(false);
+//   }   
 
   const outerClasses = classNames(
     'hero section center-content',
