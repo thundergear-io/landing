@@ -61,7 +61,9 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Innovation done for <span className="text-color-primary">differently</span>
+              <span className="text-color-primary">TRUE MASTERY</span>
+               OF ANY SKILL TAKES
+              <span className="text-color-primary">A LIFETIME</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
@@ -79,8 +81,10 @@ const Hero = ({
               </div>
             </div>
           </div>
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          </div>
+        </div>
       </div>
-    </div>
     </section>
   );
 }
